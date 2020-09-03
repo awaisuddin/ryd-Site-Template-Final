@@ -1,0 +1,40 @@
+.dailyDose{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;    
+    text-align: center;
+}
+.dailyDose div{
+    cursor: pointer;
+}
+.dailyHeader{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+.dailyRow{
+    padding: 1em;
+    border-bottom: 1px solid grey;
+}
+.dailyBox{
+    box-shadow: 0 2px 8px grey;
+    border-radius: 8px;
+    margin: 10px 0;
+    background-color: white;
+    padding: 5px;
+}
+.dailyBox div:last-child{
+    padding: 0 1em;
+    font-size: small;
+    color: cadetblue;
+    font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+	
+	.dailyDose{
+    justify-content: space-between;    
+}
+
+	
+}

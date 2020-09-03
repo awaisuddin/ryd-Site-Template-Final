@@ -1,0 +1,122 @@
+<style type="text/css"> 
+body{
+	background-color:#f2f2f2;
+	font-family: sans-serif;
+}
+
+
+.left_navbar_aside{
+  min-width:220px !important;
+  background-color:white !important;
+}
+
+@media (max-width: 1000px) {
+  
+  .left_navbar_aside{
+    display: none !important;
+  }
+}
+
+
+.slider {
+  position: relative;
+  /* fix firefox can't set width smaller than content on flex item */
+  min-width: 0;
+  background: #001529;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+
+.left_navbar {
+  height: 100%;
+  margin-top: -0.1px;
+  padding-top: 0.1px;
+}
+
+
+.tasker {
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.tasker a {
+  color: black;
+  font-weight: bold;
+}
+.tasker a:hover {
+  color: black;
+  margin-left: 10px;
+}
+
+.tasker button {
+  background-color: rgb(45, 29, 134);
+  color: white;
+  border: none;
+  font-size: 13px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+
+
+
+.divisionP {
+  display: flex;
+
+  margin: 20px;
+  flex-direction: row;
+}
+.divisionP p {
+  font-size: 10px;
+}
+
+
+
+
+
+
+.icons_main {
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+
+
+
+
+
+
+.iconic {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: orangered;
+}
+
+
+.iconic {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: orangered;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+}
+
+</style> 

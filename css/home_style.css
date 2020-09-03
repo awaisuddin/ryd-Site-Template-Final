@@ -1,0 +1,23 @@
+body{
+background-image:url('background.png');
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.caro{
+    width: 80%;
+    margin: 40px auto;
+}
+.carousel-inner{
+    border-radius: 20px;
+    box-shadow: 0px 10px 18px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    height: 20vw;
+}
+@media only screen and (max-width: 1000px) {
+    .carousel-inner {
+        height: 35vw;
+    }
+  }
+  input,a,button{
+	outline:none;
+}

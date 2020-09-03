@@ -1,0 +1,45 @@
+.historyHeader {
+    color: white;
+    background-color: #5E5BF5;
+    height: 8rem;
+    padding: 1em;
+}
+
+.historyWrapper {
+    background-image: url(/Images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.history {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #5E5BF5;
+    height: 4rem;
+    align-items: flex-end;
+    
+}
+.history div{
+    flex: 1;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 3px solid white;
+}
+.history div:hover{
+    cursor: pointer;
+    background-color: rgb(41, 41, 165);
+}
+.historyRow{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding: 0 6px;
+}
+.historyRow p {
+    margin: 17px;
+}
+.historyRow img{
+    width: 4em;
+}

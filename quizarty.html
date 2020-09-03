@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+	<link rel="stylesheet" type="text/css" href="quizarty/assets/fonts/raleway.css">
+
+    <link rel="stylesheet" type="text/css" href="quizarty/Css/Quizarty.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	
+    <title>Quizarty</title>
+<link rel="stylesheet" type="text/css" href="quizarty/assets/fonts/raleway.css">
+		<link rel="stylesheet" type="text/css" href="quizarty/assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="quizarty/assets/css/navbar.css">
+		
+	</head>
+	<body>
+	
+	<!--  Navigation Bar Section Start -->	
+		<nav class="sticktop">
+			<!--  Logo -->
+			
+			<div  class="mob_nav">
+			<button class="w3-button  w3-xlarge w3-left" onclick="funcl()">&#9776;</button>
+				<p class="center">
+					<img class="logo" src="quizarty/images/logo.png" alt="Quizarty.com">
+				</p>
+			</div>
+			
+		</nav>
+    <div class="wrapper">
+	<div class="w3-sidebar w3-bar-block w3-card w3-animate-left " style="display:none;left:0;top: 0" id="leftMenu">
+	
+
+	  <a href="home.html" style="margin-top: 34px;    " class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true"> 
+	home</span>HOME</a>
+	  <a href="practice.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true"> 
+	hourglass_empty</span>PRACTICE</a>
+	  <a href="mock.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true"> 
+	notifications_none</span>MOCK TEST </a>
+	  <a href="quizarty.html" style="background-color: #f2f2f2" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true"> 
+	edit</span>QUIZ MANIA </a>
+	  <a href="discuss.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true"> 
+	textsms</span>DISCUSS </a>
+	  <a href="daily.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true"> 
+	event</span>DAILY DOSE</a>
+	  <a href="profile.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true"> 
+	settings</span>PROFILE</a>
+	  <a href="coins.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true"> 
+	monetization_on</span>MANAGE COINS </a>
+	</div>
+        <div class="center">
+            <div style="font-weight: bold;">
+                Each round is 10 questions. you can host as many rounds you want
+            </div>
+			
+
+            <img class="chairman" src="quizarty/Images/quiz.svg">
+        </div>
+        <div class="my-3">
+            <div class="quizRow">
+                <div class="cell" onclick="location.href='quizarty/Host.html'">
+                    <img class="img" src="quizarty/Images/host_quiz.svg">
+                    <div><strong>Host Game</strong></div>
+
+                </div>
+                <div class="cell" onclick="location.href='quizarty/Join.html'">
+                    <img class="img" src="quizarty/Images/join_quiz.svg">
+                    <div><strong>Join Game</strong></div>
+                </div>
+            </div>
+            <div class="quizRow">
+                <div class="cell" onclick="location.href='quizarty/Leaderboard.html'">
+                    <img class="img" src="quizarty/Images/leaderboard_quiz.svg">
+                    <div><strong>Leaderboard</strong></div>
+                </div>
+                <div class="cell" onclick="location.href='quizarty/History.html'">
+                    <img class="img" src="quizarty/Images/histroy_quiz.svg">
+                    <div><strong>History</strong></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<script>
+window.addEventListener('mouseup', function(event) {
+	var x = document.getElementById("leftMenu");
+  if (event.target != x) {
+    x.style.display = "none";
+  }
+  }); 
+window.addEventListener('mouseup', function(event) {
+	var x = document.getElementById("rightMenu");
+  if (event.target != x) {
+    x.style.display = "none";
+  }
+  }); 
+window.addEventListener('mouseup', function(event) {
+	var x = document.getElementById("leftMenu");
+  if (event.target != x) {
+    x.style.display = "none";
+  }
+  });
+
+function funcl() {
+  var x = document.getElementById("leftMenu");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+</script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+@media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        .logo {
+            width: 95%;
+            margin: 0 auto;
+            text-align: center;
+            img {
+                width: 10%;
+                min-width: 18rem;
+            }
+        }
+        .login {
+            margin: 1rem;
+            a {
+                font-size: 1.2rem;
+                background-color: #000000;
+                color: #ffffff;
+                padding: 1.2rem 1.5rem;
+                border-radius: 1.5rem;
+            }
+        }
+    }
+    .header {
+        flex-direction: column;
+        .text {
+            width: 95%;
+            margin: 2rem auto;
+            br {
+                display: none;
+            }
+        }
+        .image {
+            width: 95%;
+            margin: 1rem auto;
+        }
+    }
+    .subHeader {
+        .title {
+            h1 {
+                font-size: 3.5rem;
+            }
+        }
+        .featureWrapper {
+            flex-direction: column;
+            margin-top: 2rem;
+            .feature {
+                margin-bottom: 3rem;
+            }
+        }
+    }
+    .subjectsWrapper {
+        margin-top: 5rem;
+        .subjectTitle {
+            text-align: center;
+            margin-bottom: 0;
+        }
+        .subjectCardWrapper {
+            flex-direction: column;
+            .subjectCard {
+                margin: 3rem auto;
+                .subjectImg {
+                    font-size: 8rem;
+                }
+                .subjectText {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    .testWrapper {
+        .testCardWrapper {
+            flex-direction: column;
+            .testCard {
+                margin: 2rem auto;
+            }
+        }
+    }
+    .joinWrapper {
+        flex-direction: column;
+        .joinImg {
+            width: 100%;
+            img {
+                width: 80%;
+            }
+        }
+        .joinText {
+            width: 100%;
+            p {
+                font-size: 2.5rem;
+            }
+        }
+    }
+}

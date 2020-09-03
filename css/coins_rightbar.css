@@ -1,0 +1,52 @@
+body{
+	background-color:#f2f2f2;
+	font-family: sans-serif;
+}
+
+.left_navbar_aside{
+  min-width:220px !important;
+  background-color:white !important;
+}
+
+
+@media (max-width: 1000px) {
+  
+  .left_navbar_aside{
+    display: none !important;
+  }
+  }
+  
+  
+  .slider {
+  position: relative;
+  /* fix firefox can't set width smaller than content on flex item */
+  min-width: 0;
+  background: #001529;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+
+.left_navbar {
+  height: 100%;
+  margin-top: -0.1px;
+  padding-top: 0.1px;
+}
+
+.maincoin {
+  margin: 20px;
+}
+
+
+.coincard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  height: 145px;
+  margin: 20px;
+  border: solid rgb(38, 55, 150) 2px;
+  box-shadow: 0px 3px 19px -4px rgba(0, 0, 0, 0.37);
+}

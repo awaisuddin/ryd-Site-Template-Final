@@ -1,0 +1,595 @@
+<head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+	<script src="https://kit.fontawesome.com/86c304b167.js" crossorigin="anonymous"></script><link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet"><link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet"><link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
+	<script src="https://use.fontawesome.com/59e5dddc41.js"></script><link href="https://use.fontawesome.com/59e5dddc41.css" media="all" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&amp;family=Piedra&amp;family=Sriracha&amp;family=Suez+One&amp;family=Lobster&amp;family=Josefin+Sans&amp;family=Jost:wght@600&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<title>dashboard</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="css/discuss_style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<!--    Font Style  -->
+	<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+	<!-- FontAwesome Icon --->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--- Main Style Sheet ---->
+	<link rel="stylesheet" href="css/discuss_style.css">
+	<link rel="stylesheet" href="css/discuss_main.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+</head>
+
+
+
+<body><button class="w3-button  w3-xlarge w3-left" onclick="funcl()">&#9776;</button>
+
+
+
+	<div class="Header">
+		<section>
+
+
+
+<img src="images/logo.jpg" alt="">
+
+
+
+
+
+
+			<div class="Search">
+				<input type="search" placeholder="search">
+				<button>
+					<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+					<path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+					</path>
+					</svg>
+				</button>
+			</div>
+			<div class="header_user">
+				<h3>
+				Patrick</h3>
+				<img onclick="funcr()" src="images/avatar.png" class="avatar" alt="">
+				
+			</div>
+
+
+
+<style>
+@media only screen and (min-width: 790px) {
+.a123 {
+   display: none;
+}
+
+
+.slider-dark {
+   top:0px;
+}
+
+.w3-animate-right {
+   top: 0px;
+    right: 0px; 
+	
+}
+
+.w3-animate-left {
+   top: 0px;
+   
+	
+}
+
+.w3-container, .w3-panel {
+    padding: 0.01em 16px;
+    margin-right: 14%;
+    margin-left: 16%;
+}
+}
+
+@media only screen and (max-width: 790px) {
+
+.w3-animate-right {
+  
+    right: 0px; 
+	top: 0px;
+	display: none;
+}
+
+.w3-animate-left {
+  
+    right: 0px; 
+	top: 0px;
+	display: none;
+}
+
+}
+
+
+
+</style>
+
+
+
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style=" width: 230px;" >
+  <div class="a123"><button  class="w3-button  w3-xlarge w3-right" onclick="funcr()">&#9776;</button>
+  <!--Left Bars Here-->
+  </div>
+  <h3 style="
+    margin-left: 73px;
+    margin-top: 13px;
+">Patrick</h3><img src="images/avatar.png" style="float:right;height: 40px; width: 40px;margin-right: 162px;margin-top: -45px;" alt="">
+  <aside class="slider-dark" style="flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;">
+<div class="left_navbar">
+<div class="tasker">
+<div class="Tests">
+<h3>
+
+Upcoming Tests</h3>
+<div class="divisionP">
+<span class="material-icons icons_main iconic" aria-hidden="true">
+category</span>
+<div>
+<a href="">
+Topic name 1</a>
+<p>
+
+
+10 Oct 2020</p>
+</div>
+</div>
+<div class="divisionP">
+<span class="material-icons icons_main iconic" aria-hidden="true">
+category</span>
+<div>
+<a href="">
+Topic name 1</a>
+<p>
+
+
+10 Oct 2020</p>
+</div>
+</div>
+<div class="divisionP">
+<span class="material-icons icons_main iconic" aria-hidden="true">
+category</span>
+<div>
+<a href="">
+Topic name 1</a>
+<p>
+
+
+10 Oct 2020</p>
+</div>
+</div>
+<div class="divisionP">
+<span class="material-icons icons_main iconic" aria-hidden="true">
+category</span>
+<div>
+<a href="">
+Topic name 1</a>
+<p>
+
+
+10 Oct 2020</p>
+</div>
+</div>
+<a style="padding: 5px 10px; border: none; color: white; font-size: 13px; margin-left: 40%; background-color: rgb(41, 32, 89); border-radius: 10px;">
+More</a>
+</div>
+<br>
+<div class="footer">
+<a href="/achievements">
+<p>
+
+
+Achievements</p>
+<img class="image" src="icons/achievement.svg" alt="">
+</a>
+</div>
+</div>
+</div>
+</aside>
+
+
+
+
+</div>
+
+<!-- Mobile Right Side Bars  -->
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style=" width: 230px;" id="rightMenu">
+  <div class="a123"><button  class="w3-button  w3-xlarge w3-right" onclick="funcr()">&#9776;</button>
+  <!--Left Bars Here-->
+  </div>
+  <h3 style="
+    margin-left: 73px;
+    margin-top: 13px;
+">Patrick jj</h3><img src="images/avatar.png" style="float:right;height: 40px; width: 40px;margin-right: 162px;margin-top: -45px;" alt="">
+  <aside class="slider-dark" style="flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;">
+<div class="left_navbar">
+<div class="tasker">
+<div class="Tests">
+<h3>
+
+Upcoming Tests</h3>
+<div class="divisionP">
+<span class="material-icons icons_main iconic" aria-hidden="true">
+category</span>
+<div>
+<a href="">
+Topic name 1</a>
+<p>
+
+
+10 Oct 2020</p>
+</div>
+</div>
+<div class="divisionP">
+<span class="material-icons icons_main iconic" aria-hidden="true">
+category</span>
+<div>
+<a href="">
+Topic name 1</a>
+<p>
+
+
+10 Oct 2020</p>
+</div>
+</div>
+<div class="divisionP">
+<span class="material-icons icons_main iconic" aria-hidden="true">
+category</span>
+<div>
+<a href="">
+Topic name 1</a>
+<p>
+
+
+10 Oct 2020</p>
+</div>
+</div>
+<div class="divisionP">
+<span class="material-icons icons_main iconic" aria-hidden="true">
+category</span>
+<div>
+<a href="">
+Topic name 1</a>
+<p>
+
+
+10 Oct 2020</p>
+</div>
+</div>
+<a style="padding: 5px 10px; border: none; color: white; font-size: 13px; margin-left: 40%; background-color: rgb(41, 32, 89); border-radius: 10px;">
+More</a>
+</div>
+<br>
+<div class="footer">
+<a href="/achievements">
+<p>
+
+
+Achievements</p>
+<img class="image" src="icons/achievement.svg" alt="">
+</a>
+</div>
+</div>
+</div>
+</aside>
+
+
+
+
+</div>
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left " style="top:0px;left: 0;" >
+<img src="images/logo.jpg" alt="">
+  <a href="home.html" style="margin-top: 14px;background-color:#f2f2f2; margin-left: 20px;" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+home</span>HOME</a>
+  <a href="practice.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+hourglass_empty</span>PRACTICE</a>
+  <a href="mock.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+notifications_none</span>MOCK TEST </a>
+  <a href="quizarty.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+edit</span>QUIZ MANIA </a>
+  <a href="discuss.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+textsms</span>DISCUSS </a>
+  <a href="daily.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+event</span>DAILY DOSE</a>
+  <a href="profile.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+settings</span>PROFILE</a>
+  <a href="coins.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+monetization_on</span>MANAGE COINS </a>
+</div>
+
+
+
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left " style="display:none;top:0px; left: 0px;" id="leftMenu">
+<img src="images/logo.jpg" alt="">
+  <a href="home.html" style="margin-top: 14px;background-color:#f2f2f2; margin-left: 20px;" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+home</span>HOME</a>
+  <a href="practice.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+hourglass_empty</span>PRACTICE</a>
+  <a href="mock.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+notifications_none</span>MOCK TEST </a>
+  <a href="quizarty.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+edit</span>QUIZ MANIA </a>
+  <a href="discuss.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+textsms</span>DISCUSS </a>
+  <a href="daily.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+event</span>DAILY DOSE</a>
+  <a href="profile.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+settings</span>PROFILE</a>
+  <a href="coins.html" class=" w3-button division"><span class="material-icons icons_main icon" aria-hidden="true">
+monetization_on</span>MANAGE COINS </a>
+</div>
+		</section>
+	<div class="Search2">
+		<div>
+			<input type="search" placeholder="search">
+			<button>
+				<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+				<path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+				</path>
+				</svg>
+			</button>
+		</div>
+		<section class="Dropdown">
+			<img src="Images/live4.webp" style="width: 41px; right: 0;" class="" alt="slide1">
+			<ul class="Dropdown_content">
+				<li>
+					<a href="">
+					Topic name 1</a>
+					<p>
+					10 Oct 2020</p>
+				</li>
+				<li>
+					<a href="">
+					Topic name 2</a>
+					<p>
+					11 Oct 2020</p>
+				</li>
+				<li>
+					<a href="">
+					Topic name 3</a>
+					<p>
+					12 Oct 2020</p>
+				</li>
+				<li>
+					<a href="">
+					Topic name 4</a>
+					<p>
+					13 Oct 2020</p>
+				</li>
+				<button>
+				More</button>
+			</ul>
+		</section>
+	</div>
+	</div>
+
+
+
+
+	<!-- Header Complete -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Post Data Here    -->
+	<div class="w3-container" >
+
+
+
+  <div style="width: 95%;">
+    <div class="container holder">
+      <div class="row">
+        <div class="col-6 h_1">
+          <h2 style="font-weight:bold;">All Questions</h2>
+        </div>
+        <div class="col-6 h_2">
+          <button type="button" class="btn btn-primary ask">Ask Question</button>
+        </div>
+      </div>
+      <div class="row box">
+        <div class="col col-lg-4 col-sm-12 h_1">
+          <h3 class="ques" >120,120,120 questions</h3>
+        </div>
+        <div class="col col-lg-5 col-sm-12 bound">
+          <button id="f1" type="button" name="button" onclick="myRegister()">Newest</button>
+          <button id="f2" type="button" name="button" onclick="changeColor()">Active</button>
+          <button id="f2" type="button" name="button" onclick="changeColor()">Bountied<p class="num">443</p></button>
+          <button id="f3" type="button" name="button" onclick="changeColor()">Unaswered</button>
+        </div>
+        <div class="col col-lg-3 col-sm-12">
+          <select class="list" name="">
+            <option value="" hidden="">More</option>
+            <option value="frequent">Frequent </option>
+            <option value="votes">Votes</option>
+          </select>
+          <button class="filter">Filter</button>
+        </div>
+      </div>
+
+    </div>
+    <hr>
+    <div class="container holder">
+      <div class="card-1">
+        <div class="vote">
+          <img src="images/arrow-up.svg" width="15px" height="15px" alt="">
+          <h1 style="font-size:1.4em">2</h1>
+          <p>votes</p>
+          <div class="greenborder">
+            <h1>7</h1>
+            <p>answers</p>
+          </div>
+          <p>200 views</p>
+          <img src="images/arrow-down.jpeg" width="15px" height="15px" alt="">
+        </div>
+        <div class="mainqa">
+          <h2 class="card-text">How to show info about page number between “previous” and “next” buttons in DataTables?</h2>
+          <h3 class="card-text1">I need to show text about the current page number and total page count between 'previous/next' buttons in the DataTable table this is how it should look like. I made pagingType: , ...</h3>
+          <div class="tags"><a href="/respectag">sql</a><a href="/respectag">mysql</a><a href="/respectag">django</a><a href="/respectag">react</a><a href="/respectag">mongo</a><a href="/respectag">mongoose</a></div>
+          <p class="modified">modified 9 seconds ago</p>
+          <div class="profile"><img src="images/user2.png" width="50px" height="50px" alt="">
+            <div class="colflex">
+              <h4 style="font-size:1.0em; font-weight:bold;">Harish</h4>
+              <div class="rowflex">
+                <p>15</p>&nbsp;
+                <p><img src="images/gold.png" width="9px" height="9px" alt="">&nbsp;0</p>&nbsp;
+                <p><img src="images/black.png" width="9px" height="9px" alt="">&nbsp;5</p>&nbsp;
+                <p><img src="images/white.png" width="9px" height="9px" alt="">&nbsp;100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-1">
+        <div class="vote">
+          <img src="images/arrow-up.svg" width="15px" height="15px" alt="">
+          <h1 style="font-size:1.4em">2</h1>
+          <p>votes</p>
+          <div class="greenborder">
+            <h1>7</h1>
+            <p>answers</p>
+          </div>
+          <p>200 views</p>
+          <img src="images/arrow-down.jpeg" width="15px" height="15px" alt="">
+        </div>
+        <div class="mainqa">
+          <h2 class="card-text">How to show info about page number between “previous” and “next” buttons in DataTables?</h2>
+          <h3 class="card-text1">I need to show text about the current page number and total page count between 'previous/next' buttons in the DataTable table this is how it should look like. I made pagingType: , ...</h3>
+          <div class="tags"><a href="/respectag">sql</a><a href="/respectag">mysql</a><a href="/respectag">django</a><a href="/respectag">react</a><a href="/respectag">mongo</a><a href="/respectag">mongoose</a></div>
+          <p class="modified">modified 9 seconds ago</p>
+          <div class="profile"><img src="images/user2.png" width="50px" height="50px" alt="">
+            <div class="colflex">
+              <h4 style="font-size:1.0em; font-weight:bold;">Harish</h4>
+              <div class="rowflex">
+                <p>15</p>&nbsp;&nbsp;
+                <p><img src="images/gold.png" width="9px" height="9px" alt="">&nbsp;0</p>&nbsp;
+                <p><img src="images/black.png" width="9px" height="9px" alt="">&nbsp;5</p>&nbsp;
+                <p><img src="images/white.png" width="9px" height="9px" alt="">&nbsp;100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+
+  <script type="text/javascript">
+  function myRegister() {
+    document.querySelector("#f1").style.color = "blue";
+    g1.style.backgroundColor = "grey";
+    document.getElementById("f2").style.background-color = "grey";
+    document.getElementById("f3").style.background-color = "grey";
+  }
+  </script>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous">
+  </script>
+
+  <script src="jquery.animated-bg.js"></script>
+  <script type="text/javascript" src="js/background.js">
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+<script>
+window.addEventListener('mouseup', function(event) {
+	var x = document.getElementById("leftMenu");
+  if (event.target != x) {
+    x.style.display = "none";
+  }
+  }); 
+  
+window.addEventListener('mouseup', function(event) {
+	var x = document.getElementById("rightMenu");
+  if (event.target != x) {
+    x.style.display = "none";
+  }
+  }); 
+function funcl() {
+  var x = document.getElementById("leftMenu");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function funcr() {
+  var x = document.getElementById("rightMenu");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+}
+
+function openLeftMenu() {
+  document.getElementById("leftMenu").style.display = "block";
+}
+
+function closeLeftMenu() {
+  document.getElementById("leftMenu").style.display = "none";
+}
+
+function openRightMenu() {
+  document.getElementById("rightMenu").style.display = "block";
+}
+
+function closeRightMenu() {
+  document.getElementById("rightMenu").style.display = "none";
+}
+</script>
+
+
+</body>
